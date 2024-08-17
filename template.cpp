@@ -21,5 +21,5 @@ using vs=vector<string>;
 #define all(v) (v).begin(),(v).end()
 
 int main(){
-    
+    cout << "hello, world" << endl;    
 }
