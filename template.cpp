@@ -14,9 +14,7 @@ using vs=vector<string>;
 
 // マクロ定義
 #define rep(i, n) for(int i=0; i<(int)(n); i++)
-#define rep2(i, st, ed) for(int i=(int)(st); i<(int)(ed); i++)
 #define repr(i, n) for(int i=(int)(n-1); i>=0; i--)
-#define rep2r(i, st, ed) for(int i=(int)(st-1); i>=(int)(ed); i--)
 #define repv(i, v) for(auto i : v)
 #define all(v) (v).begin(),(v).end()
 
