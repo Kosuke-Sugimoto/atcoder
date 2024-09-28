@@ -17,7 +17,8 @@ using vs=vector<string>;
 #define repr(i, n) for(int i=(int)(n-1); i>=0; i--)
 #define repv(i, v) for(auto i : v)
 #define all(v) (v).begin(),(v).end()
+#define rall(v) (v).rbegin(),(v).rend()
 
 int main(){
-    cout << "hello, world" << endl;    
+    cout << "hello, world" << endl;
 }
