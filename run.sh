@@ -3,10 +3,7 @@
 DOCKER_IMAGE_NAME=atcoder:latest
 DOCKER_CONTAINER_NAME=atcoder
 
-if [[ "$(docker images -q $DOCKER_IMAGE_NAME 2> /dev/null)" == "" ]]
-then
-    docker build -t $DOCKER_IMAGE_NAME .
-fi
+docker build -t $DOCKER_IMAGE_NAME .
 
 docker run -it \
            --rm \
